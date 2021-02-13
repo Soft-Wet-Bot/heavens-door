@@ -4,7 +4,6 @@ We appreciate your willingness to contribute! Here's some important links:
 
 - [CODE OF CONDUCT](https://github.com/Soft-Wet-Bot/heavens-door/blob/main/CODE_OF_CONDUCT.md)
 - [QUICK GUIDE](#quick-guide)
-- [LINTING](#linting)
 - [COMMIT MESSAGE](#commit-message)
 - [BUG REPORTS](#bug-reports)
 - [QUESTIONS, SUGGESTIONS AND REQUESTS](#questions-suggestions-and-requests)
@@ -21,12 +20,6 @@ GitHub has a synopsis of it here: https://github.com/Soft-Wet-Bot/heavens-door/b
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
-
-## Linting
-
-Linting is important before creating a PR.
-Running `npm run lint` will return syntax and formatting errors.
-Running `npm run lint:fix` will attempt to fix them.
 
 ## Commit Message
 

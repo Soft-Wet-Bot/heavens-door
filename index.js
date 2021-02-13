@@ -21,6 +21,12 @@ export default class HeavensDoor extends BaseModule {
     });
   }
 
+  init() {
+    this.modules.commandRegistrar.registerCommands('heavensdoor', import.meta.url);
+
+    return true;
+  }
+
   download(uri, filename) {
     return new Promise(async (resolve, reject) => {
       const res = await fetch(uri);
@@ -33,7 +39,7 @@ export default class HeavensDoor extends BaseModule {
   }
 
   getAssetPath(name) {
-    return process.cwd() + "/assets/images/" + name;
+    return process.cwd() + "src/modules/HeavensDoor/assets/images/" + name;
   }
 
   toPng(image) {
