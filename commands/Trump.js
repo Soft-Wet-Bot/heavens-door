@@ -19,7 +19,7 @@ export default class Trump extends HeavensDoor {
         {
           name: 'image resolvable',
           description: 'A link, a mentioned user or url to an image.',
-          type: 'image_resolvable',
+          type: 'string',
           default: "Takes the author's profile picture"
         }
       ],
